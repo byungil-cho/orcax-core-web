@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
   console.log('📦 OrcaX Core Web 페이지가 로드되었습니다.');
-
   const buttons = document.querySelectorAll('button');
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -8,4 +7,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
-
